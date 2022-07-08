@@ -6,7 +6,7 @@ async function main() {
         json: {
             hello: 'world'
         }
-    }).json();
+    }).json() as any;
     
     console.log(data);
     //=> {"hello": "world"}
